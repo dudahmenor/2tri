@@ -1,0 +1,28 @@
+@import url("style/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF; 
+}  
+.cabeçalho {
+  background-color: var(--branco);
+}
+ body {
+   background-color: var(--cor-de-fundo);
+ }
+
+ .Cabecalho_menu-hamburguer{
+  width: 24px;
+  height: 24px;
+  display: incline-block;
+  background-image: url("../img/Menu.svg");
+  background-repeat:  no-repeat;
+  background-position: center;
+ }
+ .container__imagem {
+    padding:1em;
+ }
+ .container {
+    display: flex;
+    align-items: center;
+ }
